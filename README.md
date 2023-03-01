@@ -1,5 +1,5 @@
-# Text clustering / Topic modelling
-This repository contains supporting code for a Blackbear challenge.
+# Text clustering
+This repository contains supporting code for a Blackbear challenge on topic modelling.
 
 ## Goal
 Create a data model for the future chatbot of a company. Data consists of 25000 emails and the objective is to find out how they can be divided into frequently asked questions.
@@ -37,4 +37,4 @@ Therefore `scipy.sparse` is useful to speed up algebraic operations on matrices 
 ### Plotting
 Multiple variables per topic, PCA needed to plot
 
-![alt text](https://github.com/samverh/text-clustering/blob/main/image.jpg?raw=true)
+![alt text](https://github.com/samverh/text-clustering/blob/main/results/clustered_articles.png)
