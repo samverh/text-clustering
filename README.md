@@ -36,3 +36,5 @@ Therefore `scipy.sparse` is useful to speed up algebraic operations on matrices 
 
 ### Plotting
 Multiple variables per topic, PCA needed to plot
+
+![alt text](https://github.com/samverh/text-clustering/blob/main/image.jpg?raw=true)
