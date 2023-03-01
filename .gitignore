@@ -1,3 +1,4 @@
-plot_document_clustering.ipynb
+/sklearn_examples
 .ipynb_checkpoints
 __pycache__/
+/datasets

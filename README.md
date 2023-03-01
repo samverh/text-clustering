@@ -9,7 +9,7 @@ Clustering (unsupervised learning) techniques will be performed on the emails, s
 
 ## Notes
 ### Cleaning data
-It is advised not to clean too much. However, remember stemming words to their root.
+It is advised not to clean too much. Be careful with choosing stop-words (and make sure that the stops underwent the same preprocessing and tokenization steps as the words in the vectorizer. Remember stemming words to their root.
 
 ### Feature engineering
 #### TF-IDF
@@ -23,6 +23,15 @@ Using `TfifdVectorizer` from sklearn. Settings:
 
 #### LDA
 Useful forlonger texts and when there are multiple topics per email.
+
+### Computation limitations
+#### Big data
+Possibly make use of `HashingVectorizer` to deal with large dataset, however it does not provide IDF weighting 
+
+#### Sparsity
+From the sklearn documentation: "For instance a collection of 10,000 short text documents (such as emails) will use a vocabulary with a size in the order of 100,000 unique words in total while each document will use 100 to 1000 unique words individually." 
+
+Therefore `scipy.sparse` is useful to speed up algebraic operations on matrices and vectors.
 
 
 ### Plotting
